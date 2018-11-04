@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'xcsBle'
-  s.version          = '1.0.0.4'
+  s.version          = '1.0.0.5'
   s.summary          = 'A short description of xcsBle.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,8 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   # s.source_files = 'xcsBle/Classes/**/*'
-  s.ios.vendored_frameworks = 'xcsDbMOC/Classes/xcsBle.framework'
+  s.ios.vendored_frameworks = 'xcsBle/Classes/xcsBle.framework'
+
 
   # s.resource_bundles = {
   #   'xcsBle' => ['xcsBle/Assets/*.png']
