@@ -1,0 +1,22 @@
+{
+  "name": "xcsBle",
+  "version": "0.1.0",
+  "summary": "A short description of xcsBle.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Cypress/xcsBle",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Cypress": "cypressmobileapp@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Cypress/xcsBle.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "xcsBle/Classes/**/*"
+}

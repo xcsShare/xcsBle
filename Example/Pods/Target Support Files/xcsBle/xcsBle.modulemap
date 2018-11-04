@@ -1,0 +1,6 @@
+framework module xcsBle {
+  umbrella header "xcsBle-umbrella.h"
+
+  export *
+  module * { export * }
+}

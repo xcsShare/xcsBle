@@ -1,0 +1,22 @@
+PODS:
+  - Expecta (1.0.6)
+  - Specta (1.0.7)
+  - xcsBle (0.1.0)
+
+DEPENDENCIES:
+  - Expecta
+  - Specta
+  - xcsBle (from `../`)
+
+EXTERNAL SOURCES:
+  xcsBle:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  xcsBle: c59c7e2931b176e5e85fb711eb2e275d0757e3c7
+
+PODFILE CHECKSUM: c5a43afe9abe1843787c0dd7b18f9e6ad2429a00
+
+COCOAPODS: 1.4.0
