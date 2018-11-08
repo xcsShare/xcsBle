@@ -2,9 +2,6 @@
 //  agBleDevice.h
 //  xcsBle
 //
-//  Created by Cypress on 2018/11/4.
-//  Copyright © 2018 xcs. All rights reserved.
-//
 
 #import <Foundation/Foundation.h>
 #import <CoreBluetooth/CoreBluetooth.h>
