@@ -16,6 +16,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property(nonatomic, weak, nullable) id<agBleDeviceDelegate> delegate;
 
 - (NSString*)name;
+- (CBPeripheral*)Peripheral;
 
 - (void)discoverServices:(nullable NSArray<CBUUID *> *)serviceUUIDs;
 - (void)discoverCharacteristics:(nullable NSArray<CBUUID *> *)characteristicUUIDs forService:(CBService *)service;
