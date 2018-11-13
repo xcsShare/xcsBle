@@ -31,6 +31,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol agBleMgrDelegate
 
+- (void)systemBleDidUpdateState:(NSString*)state;
+
 - (NSError*) didDiscoverPeripheral:(agBleDevice*)device BLEMgr:(agBleMgr*)mgr;
 - (NSError*) didDiscoverBeacon:(agBleBeacon*)beacon BLEMgr:(agBleMgr*)mgr;
 - (void)didFailToConnect:(agBleDevice*)device BLEMgr:(agBleMgr*)mgr;
